@@ -3,6 +3,7 @@ import java.awt.*;
 import java.util.Arrays;
 public class ChessBoard {
     
+    //used to test if the arrays are saving properly
     public static void print2D(char mat[][])
     {
         // Loop through all rows
@@ -70,6 +71,7 @@ public class ChessBoard {
             //Fullmove clock
             {'0'}
         };
+        //used to test if the arrays are saving properly
         print2D(piecePositions);
         print2D(gameStates);
     }
